@@ -1,0 +1,296 @@
+html,
+body {
+  height: 100%;
+  font-size: 16px;
+  font-family: 'Dosis-Regular';
+  background: url('../img/pattern.png') center center;
+
+}
+
+/* FONT FACES */
+
+@font-face {
+  font-family: 'Dosis-Regular';
+  src: local('Dosis-Regular.ttf'), url('Dosis-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'OpenSans-Regular';
+  src: local('OpenSans-Regular.ttf'), url('OpenSans-Regular.ttf') format('truetype');
+}
+
+
+/* SPANS */
+
+.cs-blue {
+  color: rgba(66, 215, 244, 1);
+}
+
+/* BUTTONS */
+
+.btn-lg,
+.btn-parallax {
+  background-color: transparent;
+  border-radius: 5px;
+  border: 1px solid rgba(66, 215, 244, 1);
+  transition: 0.5s;
+  font-family: 'OpenSans-Regular'
+}
+
+.btn-lg:visited,
+.btn-parallax:visited  {
+  background-color: transparent;
+  border-radius: 5px;
+  border: 1px solid rgba(66, 215, 244, 0);
+}
+
+
+.btn-lg:hover,
+.btn-lg:focus,
+.btn-lg:active,
+.btn-parallax:hover,
+.btn-parallax:focus,
+.btn-parallax:active
+{
+  background-color: rgba(66, 215, 244, 0.55);
+  border: 1px solid rgba(66, 215, 244, 0);
+  transition: 0.5s;
+}
+
+.btn-parallax {
+  width: 200px;
+  margin: 30px auto 0 auto;
+}
+
+
+/* COVER */
+
+#cover {
+  height: 100%;
+  background: url(../img/chainsafecover.png) center;
+  background-size: cover;
+  color: white;
+}
+
+
+
+/*.wall-sticker {
+  padding: 5rem 1rem;
+}*/
+
+/*.wall-sticker h2 {
+  padding-bottom: 4rem;
+  font-size: 6rem;
+}
+
+.wall-sticker p:not(.lead) {
+  font-family: 'OpenSans-Regular';
+  padding-bottom: 1rem;
+  font-size: 1.7rem;
+}
+
+.wall-sticker button {
+  font-family: 'OpenSans-Regular';
+}
+
+.wall-sticker .lead {
+  font-family: 'OpenSans-Regular';
+  padding-bottom: 1.5rem;
+  font-size: 2rem;
+}
+
+.wall-sticker .small {
+  font-size: 1.3rem !important;
+}*/
+
+
+
+/* CONTACT */
+
+#contact {
+  background-color: #666;
+  color: white;
+}
+
+.contact-section {
+  font-size: 16px;
+  text-align: center;
+/*  padding-top: 50px;*/
+}
+
+.input-box {
+  padding: 50px;
+  padding-bottom: 20px;
+  width: 500px;
+}
+
+.contact-btn {
+  margin-bottom: 100px;
+}
+
+/* FOOTER */
+
+footer {
+  background-color: #333;
+  color: white;
+  padding-bottom: 10px;
+  position: relative;
+  text-align: center;
+}
+
+.social-links {
+  list-style: none;
+  float: right;
+}
+
+.social-links li {
+  display: inline-block;
+  margin-right: 20px;
+  margin-top: 30px;
+  padding-right: 25px;
+}
+
+.social-links li:last-child {
+  margin-right: 0;
+}
+
+.social-links li a:link,
+.social-links li a:visited {
+  text-decoration: none;
+  border: 0;
+  color: #888;
+  font-size: 120%;
+  transition: 0.3s;
+}
+
+.fa-facebook-square:hover {
+  color: #3b5998;
+}
+
+.fa-twitter-square:hover {
+  color: #00aced;
+}
+
+.fa-instagram:hover {
+  color: #517fa4;
+}
+
+.fa-facebook-square,
+.fa-twitter-square,
+.fa-instagram {
+  transition: 0.3s;
+}
+
+footer p {
+  text-align: center;
+  margin-top: 45px;
+  font-size: 18px;
+}
+
+.fa-chevron-circle-up {
+  margin-top: 25px;
+  color: rgba(66, 215, 244, 1);
+  transition: 0.4s;
+}
+
+.fa-chevron-circle-up:hover {
+  color: rgba(66, 215, 244, 0.65);
+  transition: 0.4s;
+}
+
+/* ANIMATIONS */
+
+
+
+/* RESPONSIVENESS */
+
+@media only screen and (max-width: 1920px) {
+
+  .wall-sticker {
+    font-size: 5rem;
+    padding: 8rem 20rem 10rem 3rem;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .fa-facebook-square,
+  .fa-twitter-square,
+  .fa-instagram {
+    font-size: 28px;
+  }
+
+  .social-links li {
+    margin-right: 5px;
+  }
+
+}
+
+@media only screen and (max-width: 1024px) {
+  .wall-sticker h2 {
+    padding-bottom: 2rem;
+
+  }
+  .wall-sticker p:not(.lead) {
+
+    padding-bottom: 0.5rem;
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .wall-sticker h2 {
+    padding-bottom: 1rem;
+  }
+  .wall-sticker p:not(.lead) {
+
+    padding-bottom: 0.2rem;
+    font-size: 1rem;
+  }
+
+  .headshot {
+    width: 110px;
+    height: 110px;
+  }
+  .navbar {
+    font-size: 10px;
+    position: relative;
+    display: block;
+  }
+  #main-nav li a:hover {
+    width: 50px;
+  }
+  #main-nav li a {
+    width: 50px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
